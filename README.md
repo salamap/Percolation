@@ -21,3 +21,12 @@ For example, if sites are opened in a 20-by-20 lattice, then our estimate of the
 By repeating this computation experiment T times and averaging the results, we obtain a more accurate estimate of the percolation threshold.
 
 The result: By following the above outlined method the observed value of p*, threshold of percolation, is approximately 0.593. 
+
+How to Run Code:
+================
+Provide the command-line arguments N and T, performs T independent computational experiments (discussed above) on an N-by-N grid, and prints out the mean, standard deviation, and the 95% confidence interval for the percolation threshold. 
+For example:
+% java PercolationStats 200 100
+mean                    = 0.5929934999999997
+stddev                  = 0.00876990421552567
+95% confidence interval = 0.5912745987737567, 0.5947124012262428
